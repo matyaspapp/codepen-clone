@@ -9,27 +9,27 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app__editors">
+      <div className="app__pane app__editors">
         <Editor
           language="xml"
           displayName="HTML"
           value={html}
           onChange={setHtml}
-        />
+          />
         <Editor
           language="css"
           displayName="CSS"
           value={css}
           onChange={setCss}
-        />
+          />
         <Editor
           language="javascript"
           displayName="JS"
           value={js}
           onChange={setJs}
-        />
+          />
       </div>
-      <div className="app__frame">
+      <div className="app__pane">
 
       </div>
     </div>
