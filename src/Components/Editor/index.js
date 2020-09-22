@@ -12,7 +12,6 @@ import { IconButton } from '@material-ui/core';
 
 
 const Editor = ({ displayName, language, value, onChange }) => {
-
   const [open, setOpen] = useState(true);
 
   const handleChange = (editor, data, value) => {
